@@ -21,7 +21,7 @@ int main(){
 	quickSort(array, 0, elem);
 	cout<<"\nSorted Array: "<<endl;
 	printArray(array, elem);
-	cout<<"Meausurements: "<<endl;
+	cout<<"\nMeausurements: "<<endl;
 	MMM(array, elem);
 	
 	cout<<"\n"<<endl;
@@ -93,7 +93,7 @@ void printArray(int *arr, int elem){
 		for(int i = 0; i<elem; i++){
 			cout<<*(arr+i)<<" ";
 		}
-	
+	cout<<"\n";
 }
 void askArray(int *arr, int elem){
 		for(int i = 0; i<elem; i++){
